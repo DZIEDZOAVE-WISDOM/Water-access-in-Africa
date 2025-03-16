@@ -69,20 +69,6 @@ FROM water_supply_sanitation_africa
 WHERE Government_Support='Yes' AND NGO_Support='Yes' AND Waterborne_Diseases_Incidence_Rate_percentage<=20 ;
 
 
- -- doing an experiment with timestamp
- 
-CREATE DATABASE mass_hostel;
-USE mass_hostel;
-CREATE TABLE student_check_out(Student_Id INT,
-							   Check_in_time  TIMESTAMP  DEFAULT CURRENT_TIMESTAMP
-							   );
-					
-INSERT INTO student_check_out
-VALUES(2431122,DEFAULT);
 
-SELECT*
-FROM student_check_out;
-
-DROP DATABASE mass_hostel;
 
 
