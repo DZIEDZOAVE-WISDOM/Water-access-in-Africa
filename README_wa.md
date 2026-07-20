@@ -63,7 +63,7 @@ range of SQL techniques covered in training.
 
 ## Files
 
-- `water_access_analysis.sql` — all queries
+- `water access and saniation in Africa.sql` — all queries
 - `Water_Supply_Sanitation_Africa.csv` — dataset
 
 ## Tools
